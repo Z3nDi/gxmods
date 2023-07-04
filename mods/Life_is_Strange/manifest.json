@@ -1,0 +1,47 @@
+{
+    "manifest_version": 3,
+    "name": "Life is strange",
+    "description": "Life is a strange thing",
+    "version": "1.0",
+    "icons":
+    {
+        "512": "icon_512.png"
+    },
+    "developer":
+    {
+        "name": "Z3ndi"
+    },
+    "mod":
+    {
+        "schema_version": 1,
+        "payload":
+    {
+        "wallpaper":
+    {
+            "dark":
+            {
+                "image": "wallpaper/Life is strange.jpg",
+                "text_color": "#ffffff",
+                "text_shadow": "#cccccc"
+            },
+            "light":
+            {
+                "image": "wallpaper/Life is strange.jpg",
+                "text_color": "#ffffff",
+                "text_shadow": "#cccccc"
+            } 
+
+    },
+            "background_music":
+            [
+                "music/layer1.mp3",
+                "music/layer2.mp3",
+                "music/layer3.mp3",
+                "music/layer4.mp3",
+                "music/layer5.mp3"
+                
+            ]
+
+        }
+    }
+}
